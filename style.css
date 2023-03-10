@@ -1,0 +1,159 @@
+body{
+font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+width: 100%;
+height: auto;
+
+}
+a{
+    text-align: end-right;
+}
+.container{
+    background-color:#fff4e6 ;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.leftside{
+    margin-top: 10%;
+}
+.rightside{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    border-radius: 100%;
+}
+img{
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+   
+}
+#smoked{
+    width: 100%;
+    height: 67%;
+}
+#fruity{
+    width: 75%;
+    height:65% ;
+}
+.right{
+   /* display: flex;
+   margin-left: 30%; */
+
+   margin-top: 6%;
+   display: flex;
+   flex-direction: row;
+   align-items: center; 
+   border-radius: 100%;
+
+}
+.left{
+    margin-left: 15%;
+    text-align: center;
+}
+#foodoffer{
+    width: 25%;
+    height: 60%;
+}
+#offer{
+    
+}
+.icon{
+    width: 25px;
+    height: 25px
+}
+button{
+    width: 30x;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(255, 251, 0);
+}
+.menu{
+    width: 30px;
+    height: 10px;
+}
+.foods{
+    display: flex;
+    gap: 5%;
+}
+.offers{
+    /* margin-top: 5%;
+    padding-top: 80px;
+    background-color: #fff4e6;
+    display: flex;
+    flex-direction: row; */
+   
+    /* background-color:#fff4e6 ; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+   
+    
+}
+#discount{
+    width: 30px;
+    height: 15px;
+}
+/* .bestoffers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1005;
+  
+} */
+.companys offers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 1005; */
+  
+}
+#burger{
+    height: 50%;
+}
+#salad{
+    width: 90%;
+    height: 55%;
+}
+#maping{
+     width: 30%; 
+    height: 65%;
+}
+h3{
+    text-align: center;
+}
+#subheading{
+    text-align: center;
+}
+.phoneapp{
+    display: flex;
+}
+#phone{
+    width: 50%;
+    height: 50%;
+}
+.footerpart{
+    height: 30%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-color: black;
+    color: white;
+}
+.footerpart ul{
+    margin-right: 10px;
+}
+.copyright{
+    font-size: larger;
+    color: crimson;
+    background-color: yellow;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.services img{
+    height: 20vh;
+    width: 40%;
+}
